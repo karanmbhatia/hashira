@@ -86,8 +86,8 @@ function main() {
     const args = process.argv.slice(2);
     
     if (args.length === 0) {
-        console.log("Usage: node shamir_solver.js <testcase1.json> [testcase2.json] ...");
-        console.log("Example: node shamir_solver.js testcase1.json testcase2.json");
+        console.log("Usage: node hashira.js <testcase1.json> [testcase2.json] ...");
+        console.log("Example: node hashira.js testcase1.json testcase2.json");
         process.exit(1);
     }
     
